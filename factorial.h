@@ -1,0 +1,2 @@
+int factorial(int n);
+
