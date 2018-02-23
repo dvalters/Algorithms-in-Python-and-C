@@ -1,0 +1,12 @@
+digraph {
+	graph [fontname=helvetica label="nodes=4"]
+	node [fontname=helvetica]
+	edge [fontname=helvetica]
+	39069072 [label="{ factorial(4)  | ret: 24 }" fontsize=13 labelfontsize=13 shape=Mrecord]
+	37746048 [label="{ factorial(3)  | ret: 6 }" fontsize=13 labelfontsize=13 shape=Mrecord]
+	37746624 [label="{ factorial(2)  | ret: 2 }" fontsize=13 labelfontsize=13 shape=Mrecord]
+	37748208 [label="{ factorial(1)  | ret: 1 }" fontsize=13 labelfontsize=13 shape=Mrecord]
+	39069072 -> 37746048 [label="1 (&uArr;3)" color="#323232" fontcolor="#999999" fontsize=8 labelfontsize=8]
+	37746048 -> 37746624 [label="2 (&uArr;2)" color="#646464" fontcolor="#999999" fontsize=8 labelfontsize=8]
+	37746624 -> 37748208 [label="3 (&uArr;1)" color="#969696" fontcolor="#999999" fontsize=8 labelfontsize=8]
+}
